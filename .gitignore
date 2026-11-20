@@ -1,0 +1,10 @@
+/node_modules
+/log/*
+/tmp/*
+/storage/*
+/public/packs*
+/.idea
+/config/master.key
+/db/*.sqlite3*
+!/log/.keep
+!/tmp/.keep

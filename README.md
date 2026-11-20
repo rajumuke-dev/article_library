@@ -1,30 +1,32 @@
-# README
+# Article Library
 
-Author : RAJU MUKE
+[![License: Apache-2.0](https://img.shields.io/github/license/rajumuke-dev/article_library)](LICENSE) [![Rails](https://img.shields.io/badge/Rails-6.0-red)](#) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![Stars](https://img.shields.io/github/stars/rajumuke-dev/article_library?style=social)](https://github.com/rajumuke-dev/article_library)
 
-purpose : Learning and understanding RoR framework
+A small Ruby on Rails app built while learning the framework: create, read, update and delete articles (title and description).
 
-Content : CRUD operation performs on article library 
+## Features
+- Full CRUD for articles (`/articles`)
+- Home page at `/`
+- SQLite database, zero setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirements
+- Ruby 2.6.3
+- Node.js and Yarn
+- SQLite3
 
-Things you may want to cover:
+## Run locally
+```
+bundle install
+yarn install
+bin/rails db:setup
+bin/rails server
+```
+Open http://localhost:3000.
 
-* Ruby version
+## Tests
+```
+bin/rails test
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Contributing and security
+Fork, branch, and open a Pull Request; see [CONTRIBUTING.md](CONTRIBUTING.md). Report vulnerabilities privately per [SECURITY.md](SECURITY.md). Licensed under [Apache-2.0](LICENSE).
