@@ -1,4 +1,4 @@
-# Article Library
+# 📰 Article Library
 
 [![License: Apache-2.0](https://img.shields.io/github/license/rajumuke-dev/article_library)](LICENSE) [![Rails](https://img.shields.io/badge/Rails-6.0-red)](#) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![Stars](https://img.shields.io/github/stars/rajumuke-dev/article_library?style=social)](https://github.com/rajumuke-dev/article_library)
 
