@@ -4,6 +4,14 @@
 
 A small Ruby on Rails app built while learning the framework: create, read, update and delete articles (title and description).
 
+<div align="center">
+
+![Demo](docs/demo.gif)
+
+<sub>Illustrative animation of the main flow (not a screen recording).</sub>
+
+</div>
+
 ## Features
 - Full CRUD for articles (`/articles`)
 - Home page at `/`
